@@ -339,7 +339,7 @@ from vllm import LLM, SamplingParams
 
 tp_size = 4 # Paralelismo de tensor
 sampling_params = SamplingParams(temperature=0.7, top_p=0.9, max_tokens=100)
-model_name = "deepseek-ai/deepseek-coder-6.7b-base"
+model_name = "itatechia-6.7b-base"
 llm = LLM(model=model_name, trust_remote_code=True, gpu_memory_utilization=0.9, tensor_parallel_size=tp_size)
 
 prompts = [
