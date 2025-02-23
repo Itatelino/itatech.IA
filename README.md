@@ -1,4 +1,4 @@
-# itatech.IA
+# Itatech.IA
 A inteligência artificial da empresa Itatech. Um modelo de chatbot ultraavançado.
 
 <p align="center">
@@ -10,7 +10,7 @@ A inteligência artificial da empresa Itatech. Um modelo de chatbot ultraavança
 </p>
 <hr>
 
-### 1. Introdução ao DeepSeek Coder
+### 1. Introdução ao Itatech.IA
 
 O Itatech.IA é composto por uma série de modelos de linguagem de código, cada um treinado do zero em tokens 2T, com uma composição de 87% de código e 13% de linguagem natural em inglês e chinês. Fornecemos vários tamanhos do modelo de código, variando de versões de 1B a 33B. Cada modelo é pré-treinado no corpus de código de nível de projeto, empregando um tamanho de janela de 16K e uma tarefa extra de preenchimento de lacunas, para dar suporte à conclusão e preenchimento de código de nível de projeto. Para recursos de codificação, o DeepSeek Coder atinge desempenho de ponta entre modelos de código de código aberto em várias linguagens de programação e vários benchmarks.
 
