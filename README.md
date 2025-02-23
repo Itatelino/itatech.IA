@@ -1,5 +1,5 @@
 # Itatech.IA
-A inteligência artificial da empresa Itatech. Um modelo de chatbot ultraavançado.
+A inteligência artificial da empresa Itatech. Um modelo de chatbot ultra avançado.
 
 <p align="center">
 <img width="1000px" alt="Itatech.IA" src="pictures/colocarImagem.png">
