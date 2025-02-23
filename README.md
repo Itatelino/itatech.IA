@@ -58,7 +58,7 @@ Mais detalhes da avaliação podem ser encontrados na [Avaliação detalhada](#6
 
 - Etapa 1: Inicialmente pré-treinado com um conjunto de dados consistindo de 87% de código, 10% de linguagem relacionada ao código (Github Markdown e StackExchange) e 3% de idioma chinês não relacionado ao código. Os modelos são pré-treinados usando tokens de 1,8T e um tamanho de janela de 4K nesta etapa.
 - Etapa 2: Pré-treinamento adicional usando um tamanho de janela estendido de 16K em 200B tokens adicionais, resultando em modelos fundamentais (**DeepSeek-Coder-Base**).
-- Etapa 3: Ajuste fino de instruções em 2B tokens de dados de instruções, resultando em modelos ajustados por instruções (**DeepSeek-Coder-Instruct**).
+- Etapa 3: Ajuste fino de instruções em 2B tokens de dados de instruções, resultando em modelos ajustados por instruções (**Itatech.IA-Instruct**).
 
 <img src="pictures/model_pretraining.png" alt="model_pretraining" width="100%">
 
