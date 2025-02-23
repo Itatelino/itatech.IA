@@ -264,13 +264,13 @@ print(tokenizer.decode(outputs[0]))
 ```
 
 ---
-No cenário a seguir, o modelo DeepSeek-Coder-6.7B efetivamente chama uma classe **IrisClassifier** e sua função membro do arquivo `model.py` e também utiliza funções do arquivo `utils.py` para complete corretamente a função **main** no arquivo `main.py` para treinamento e avaliação do modelo.
+No cenário a seguir, o modelo Itatech.IA-6.7B efetivamente chama uma classe **IrisClassifier** e sua função membro do arquivo `model.py` e também utiliza funções do arquivo `utils.py` para complete corretamente a função **main** no arquivo `main.py` para treinamento e avaliação do modelo.
 
 ![GIF de conclusão](pictures/completion_demo.gif)
 
-### 5. Como ajustar o DeepSeek-Coder
+### 5. Como ajustar o Itatech.IA
 
-Nós fornecemos o script `finetune/finetune_deepseekcoder.py` para que os usuários ajustem nossos modelos em tarefas posteriores.
+Nós fornecemos o script `finetune/finetune_itatechia.py` para que os usuários ajustem nossos modelos em tarefas posteriores.
 
 O script suporta o treinamento com [DeepSpeed](https://github.com/microsoft/DeepSpeed). Você precisa instalar os pacotes necessários por:
 
@@ -281,7 +281,7 @@ pip install -r finetune/requirements.txt
 Siga o [Formato do conjunto de dados de amostra](https://huggingface.co/datasets/nickrosh/Evol-Instruct-Code-80k-v1) para preparar seus dados de treinamento.
 Cada linha é uma string serializada em json com dois campos obrigatórios `instruction` e `output`.
 
-Após a preparação dos dados, você pode usar o script de shell de exemplo para ajustar `deepseek-ai/deepseek-coder-6.7b-instruct`.
+Após a preparação dos dados, você pode usar o script de shell de exemplo para ajustar `Itatech.IA-6.7b-instruct`.
 Lembre-se de especificar `DATA_PATH`, `OUTPUT_PATH`.
 E escolha hiperparâmetros apropriados (por exemplo, `learning_rate`, `per_device_train_batch_size`) de acordo com seu cenário.
 
